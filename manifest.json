@@ -1,0 +1,27 @@
+{
+  "name": "Labrador dashboard utilities.",
+  "version": "0.1",
+  "description": "Bunch of useful stuff.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "templates/options.html",
+  "browser_action": {
+    "default_popup": "templates/popup.html",
+    "default_icon": {
+      "16": "images/roflanhmm.png",
+      "32": "images/roflanhmm.png",
+      "48": "images/roflanhmm.png",
+      "128": "images/roflanhmm.png"
+    }
+  },
+  "icons": {
+    "16": "images/roflanhmm.png",
+    "32": "images/roflanhmm.png",
+    "48": "images/roflanhmm.png",
+    "128": "images/roflanhmm.png"
+  }
+}
